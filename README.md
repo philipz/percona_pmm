@@ -27,3 +27,11 @@ k edit secrets dbaas-mysql-tpebnkcld001-pxc-secrets
 
 pmmserver: YOUR_PASSWORD_BASE64
 ```
+
+## Validating the Employee Data
+
+https://dev.mysql.com/doc/employee/en/employees-validation.html
+
+```
+SET GLOBAL pxc_strict_mode=DISABLED;
+```
